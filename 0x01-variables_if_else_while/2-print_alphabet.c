@@ -2,19 +2,14 @@
 
 /**
  * main - prints the English alphabet in lowercase
- * and uppercase
  *
  * Return: 0 if execution was successful
  */
 int main(void)
 {
-	char letter;
+	char letter = 'a';
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		putchar(letter);
-	}
-	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
 		putchar(letter);
 	}
@@ -22,3 +17,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
